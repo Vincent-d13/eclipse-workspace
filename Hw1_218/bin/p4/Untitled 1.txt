@@ -1,0 +1,8 @@
+The insert method has a big O of 1 because inserting into array takes little effort when you have the number of elements.
+The display method has big O of n because of the for loop.
+Sequential search has big O of n because of the nested for loops.
+A sorted array with binary search has big o of log(n)
+Bubble sort has big O of n^2 because of the nested for loops.
+Selection sort has big O of n^2 because of the nested for loops.
+Deleting an item from an array has big O of n.
+Insertion Sort n^2

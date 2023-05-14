@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Bag.java&apos; to &apos;Hw3/src/p2_Bag_Class&apos;&#x0A;- Original project: &apos;Lec05 Generics&apos;&#x0A;- Destination element: &apos;Hw3/src/p2_Bag_Class&apos;&#x0A;- Original element: &apos;p6.Bag.java&apos;" description="Copy compilation unit" destination="=Hw3/src&lt;p2_Bag_Class" element1="/src&lt;p6{Bag.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1649905825467" units="1" version="1.0"/>
+</session>

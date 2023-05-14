@@ -1,0 +1,67 @@
+package View;
+
+import Boot.Main;
+import Model.Applicant;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+
+public class userView {
+	
+	static VBox root;
+	
+	public userView(Stage primaryStage) {
+		Applicant app = Main.appMap.getValue(signUpView.userName());
+		
+		HBox btnBox = new HBox();
+		Button logOut = new Button("LogOut");
+		
+		Label label2 = new Label();
+		Label label = new Label();
+		Label label3 = new Label();
+		
+		Button btn = new Button("Finsish app");
+		
+		
+		if (app.getGpa() == 0.0 && app.getEssay() == null) {
+			label2.setText("Please finish filling out information");
+			btn.setOnAction(e -> {
+				this.root = new signUpView2(primaryStage).getRoot();
+				primaryStage.getScene().setRoot(this.root);
+			});
+			
+		} else {
+			label.setText(Double.toString(Main.dc.getAi()));
+			btn.setOnAction(e -> {
+				label3.setText("Your app is complete");
+			});
+		}
+		
+		logOut.setOnAction(e -> {
+			this.root = new loginView(primaryStage).getRoot();
+			primaryStage.getScene().setRoot(this.root);
+		});
+		
+		
+		
+		
+		btnBox.setAlignment(Pos.CENTER);
+		btnBox.getChildren().addAll(logOut, btn);
+		
+		root = new VBox(10);
+		root.setAlignment(Pos.CENTER);
+		root.setPadding(new Insets(100));
+		root.getChildren().addAll(label2, label, btnBox, label3);
+		
+		
+	}
+	
+	public static VBox getRoot() {
+		return root;
+	}
+
+}

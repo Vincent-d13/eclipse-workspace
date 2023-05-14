@@ -1,0 +1,2 @@
+Bubble sorts Big O is O(n^2) which is highly inefficient. Insertion sorts Big O is typically O(n^2). But it performs well if the
+array is sorted or almost sorted it has a Big O of O(n). Selection sort has a Big O of O(n^2).

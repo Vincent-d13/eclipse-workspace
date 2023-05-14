@@ -1,0 +1,3 @@
+The big difference among the three of them is the amount of swaps and comparisons being made as well as copies. 
+Some can skip the swaps while the others can't and insertion sort requieres copies to be made for comparisons 
+but this still does'nt change the time complexity for Big O.

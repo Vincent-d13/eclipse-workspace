@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;StackList.java&apos; to &apos;DimagroExam218/src/p3&apos;&#x0A;- Original project: &apos;Hw2_218&apos;&#x0A;- Destination element: &apos;DimagroExam218/src/p3&apos;&#x0A;- Original element: &apos;p1.StackList.java&apos;" description="Copy compilation unit" destination="=DimagroExam218/src&lt;p3" element1="/src&lt;p1{StackList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1665700734383" units="1" version="1.0"/>
+</session>

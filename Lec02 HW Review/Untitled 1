@@ -1,0 +1,2 @@
+Conclusion: When the data is sorted a binary search will be more efficient as it will only take O(logn) time while 
+the sequential search will still take O(n). If the data wasnt sorted sequential search would be more efficient.

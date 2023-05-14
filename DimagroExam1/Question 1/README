@@ -1,0 +1,4 @@
+Big O time complexity is evaluated on the algorithm's efficiency on the program. It measures the time it takes to run that program 
+as the amount of data changes/grows. Runtime of the program is an important factor of measuring Big O. Big O can be evaluated as
+Constant O(1), which is most efficient, O(log n), which is the second most efficient, O(n) which is poor, and, O(n^2) which is 
+the least efficient way of checking your data.

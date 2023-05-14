@@ -1,0 +1,20 @@
+package p4;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		Student s1 = new Student ("Vincent" , 4.0);
+		Student s2 = new Student ("Joe", 1.0);
+		Student s3 = new Student ("John Doe", 3.5);
+		
+		Bag newBag = new Bag(10);
+		newBag.insert(s1);
+		//newBag.display();
+		newBag.insert(s2);
+		newBag.insert(s3);
+		
+		newBag.display();
+	}
+
+}

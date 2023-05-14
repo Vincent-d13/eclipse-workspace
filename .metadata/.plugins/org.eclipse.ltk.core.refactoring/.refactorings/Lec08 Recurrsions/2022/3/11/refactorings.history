@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;p1.DemoHanoi&apos; to &apos;Hanoi&apos;&#x0A;- Original project: &apos;Lec08 Recurrsions&apos;&#x0A;- Original element: &apos;p1.DemoHanoi&apos;&#x0A;- Renamed element: &apos;p1.Hanoi&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DemoHanoi&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;p1{DemoHanoi.java[DemoHanoi" matchStrategy="1" name="Hanoi" qualified="false" references="true" similarDeclarations="false" stamp="1646931817242" textual="false" version="1.0"/>
+</session>

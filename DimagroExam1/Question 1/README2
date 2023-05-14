@@ -1,0 +1,2 @@
+Sequential search checks everything linearly so Big O is O(n). It will take n/2 comparisons to perform the search but is written
+ as o(n).
